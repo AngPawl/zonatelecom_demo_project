@@ -1,0 +1,4048 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "pageProps": {
+      "type": "object",
+      "properties": {
+        "header": {
+          "type": "object",
+          "properties": {
+            "retrieved": {
+              "type": "boolean"
+            },
+            "items": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "string"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "null"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": [
+                                            {
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "integer"
+                                                },
+                                                "title": {
+                                                  "type": "string"
+                                                },
+                                                "type": {
+                                                  "type": "string"
+                                                },
+                                                "link": {
+                                                  "type": "string"
+                                                },
+                                                "flink": {
+                                                  "type": "string"
+                                                },
+                                                "path": {
+                                                  "type": "string"
+                                                },
+                                                "componentname": {
+                                                  "type": "string"
+                                                },
+                                                "iconname": {
+                                                  "type": "null"
+                                                },
+                                                "note": {
+                                                  "type": "string"
+                                                },
+                                                "children": {
+                                                  "type": "array",
+                                                  "items": {}
+                                                }
+                                              },
+                                              "required": [
+                                                "id",
+                                                "title",
+                                                "type",
+                                                "link",
+                                                "flink",
+                                                "path",
+                                                "componentname",
+                                                "iconname",
+                                                "note",
+                                                "children"
+                                              ]
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "null"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "null"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "string"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "null"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "null"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "null"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "null"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "null"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "string"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "string"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": [
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    },
+                                    {
+                                      "type": "object",
+                                      "properties": {
+                                        "id": {
+                                          "type": "integer"
+                                        },
+                                        "title": {
+                                          "type": "string"
+                                        },
+                                        "type": {
+                                          "type": "string"
+                                        },
+                                        "link": {
+                                          "type": "string"
+                                        },
+                                        "flink": {
+                                          "type": "string"
+                                        },
+                                        "path": {
+                                          "type": "string"
+                                        },
+                                        "componentname": {
+                                          "type": "string"
+                                        },
+                                        "iconname": {
+                                          "type": "null"
+                                        },
+                                        "note": {
+                                          "type": "string"
+                                        },
+                                        "children": {
+                                          "type": "array",
+                                          "items": {}
+                                        }
+                                      },
+                                      "required": [
+                                        "id",
+                                        "title",
+                                        "type",
+                                        "link",
+                                        "flink",
+                                        "path",
+                                        "componentname",
+                                        "iconname",
+                                        "note",
+                                        "children"
+                                      ]
+                                    }
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "null"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": {}
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                }
+              ]
+            },
+            "error": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "retrieved",
+            "items",
+            "error"
+          ]
+        },
+        "lkLinks": {
+          "type": "object",
+          "properties": {
+            "retrieved": {
+              "type": "boolean"
+            },
+            "items": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "string"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "string"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "string"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "string"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "string"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "string"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "string"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                }
+              ]
+            },
+            "error": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "retrieved",
+            "items",
+            "error"
+          ]
+        },
+        "footer": {
+          "type": "object",
+          "properties": {
+            "retrieved": {
+              "type": "boolean"
+            },
+            "items": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "null"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "null"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "null"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "null"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            },
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string"
+                    },
+                    "id": {
+                      "type": "string"
+                    },
+                    "attributes": {
+                      "type": "object",
+                      "properties": {
+                        "id": {
+                          "type": "integer"
+                        },
+                        "title": {
+                          "type": "string"
+                        },
+                        "type": {
+                          "type": "string"
+                        },
+                        "link": {
+                          "type": "string"
+                        },
+                        "flink": {
+                          "type": "string"
+                        },
+                        "path": {
+                          "type": "string"
+                        },
+                        "componentname": {
+                          "type": "null"
+                        },
+                        "iconname": {
+                          "type": "null"
+                        },
+                        "note": {
+                          "type": "string"
+                        },
+                        "children": {
+                          "type": "array",
+                          "items": [
+                            {
+                              "type": "object",
+                              "properties": {
+                                "id": {
+                                  "type": "integer"
+                                },
+                                "title": {
+                                  "type": "string"
+                                },
+                                "type": {
+                                  "type": "string"
+                                },
+                                "link": {
+                                  "type": "string"
+                                },
+                                "flink": {
+                                  "type": "string"
+                                },
+                                "path": {
+                                  "type": "string"
+                                },
+                                "componentname": {
+                                  "type": "null"
+                                },
+                                "iconname": {
+                                  "type": "null"
+                                },
+                                "note": {
+                                  "type": "string"
+                                },
+                                "children": {
+                                  "type": "array",
+                                  "items": {}
+                                }
+                              },
+                              "required": [
+                                "id",
+                                "title",
+                                "type",
+                                "link",
+                                "flink",
+                                "path",
+                                "componentname",
+                                "iconname",
+                                "note",
+                                "children"
+                              ]
+                            }
+                          ]
+                        }
+                      },
+                      "required": [
+                        "id",
+                        "title",
+                        "type",
+                        "link",
+                        "flink",
+                        "path",
+                        "componentname",
+                        "iconname",
+                        "note",
+                        "children"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "id",
+                    "attributes"
+                  ]
+                }
+              ]
+            },
+            "error": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "retrieved",
+            "items",
+            "error"
+          ]
+        },
+        "fillcard": {
+          "type": "object",
+          "properties": {
+            "settings": {
+              "type": "object",
+              "properties": {
+                "sums": {
+                  "type": "array",
+                  "items": [
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    },
+                    {
+                      "type": "string"
+                    }
+                  ]
+                },
+                "amount_min": {
+                  "type": "string"
+                },
+                "amount_max": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "sums",
+                "amount_min",
+                "amount_max"
+              ]
+            }
+          },
+          "required": [
+            "settings"
+          ]
+        },
+        "uopdMain": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "text"
+          ]
+        },
+        "oferta": {
+          "type": "object",
+          "properties": {
+            "title": {
+              "type": "string"
+            },
+            "text": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "title",
+            "text"
+          ]
+        }
+      },
+      "required": [
+        "header",
+        "lkLinks",
+        "footer",
+        "fillcard",
+        "uopdMain",
+        "oferta"
+      ]
+    },
+    "__N_SSG": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "pageProps",
+    "__N_SSG"
+  ]
+}
