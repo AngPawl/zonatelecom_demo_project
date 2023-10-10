@@ -26,6 +26,10 @@ def test_header_logo_should_be_visible(browser_setup):
     website.header.logo_should_be_visible()
 
 
+@allure.title('Номер телефона отображается на странице')
+@allure.label('owner', 'AngPawl')
+@allure.tag('smoke tests')
+@allure.severity(Severity.CRITICAL)
 def test_header_phone_number_should_be_visible(browser_setup):
     website.open()
 
